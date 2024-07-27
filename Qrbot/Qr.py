@@ -8,7 +8,8 @@ api_id = 1234567
 api_hash = "apihash"
 
 
-client =  TelegramClient('name', api_id, api_hash,connection=connection.ConnectionTcpMTProxyRandomizedIntermediate,proxy=('95.169.173.130', 8443, '79ea54d21249bd7ac519CQ'),) 
+client =  TelegramClient('name', api_id, api_hash)
+
 
 
 @client.on(events.NewMessage())
